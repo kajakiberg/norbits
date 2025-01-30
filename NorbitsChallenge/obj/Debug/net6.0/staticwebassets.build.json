@@ -1,0 +1,5172 @@
+{
+  "Version": 1,
+  "Hash": "nboVJUCDaj01GgvxSgtSazPI8deRzZJ6KtCP3hN9TE8=",
+  "Source": "NorbitsChallenge",
+  "BasePath": "_content/NorbitsChallenge",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "NorbitsChallenge/wwwroot",
+      "Source": "NorbitsChallenge",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/css/site.css",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dz0tt7zj3u",
+      "Integrity": "OVN/hmrGan4G7oD2wWQqwcQ3G+nm/YOpnRS7eeAFiLs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/css/site.min.css",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "css/site.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8qo50a92ce",
+      "Integrity": "kHvJwvVAK1eJLN4w8xygUR3nbvlLmRwi5yr+OuAO90E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/site.min.css"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/favicon.ico",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "favicon#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "90yqlj465b",
+      "Integrity": "qU+KhVPK6oQw3UyjzAHU4xjRmCj3TLZUU/+39dni9E0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/images/banner1.svg",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "images/banner1#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v6jnq5ttib",
+      "Integrity": "GaE/EmkeBf+yBbrJ26lpkGd4jkOSh1eVKJaNOw9I4uk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/banner1.svg"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/images/banner2.svg",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "images/banner2#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "htbl0vvztd",
+      "Integrity": "60TgRUjPDlTKrCHTI/KjwzfC3Q1Vn13XT2aAYMbYT2o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/banner2.svg"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/images/banner3.svg",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "images/banner3#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w24zs667xn",
+      "Integrity": "aJNxc7a4CqF4NF5VHFqWt59nF8aJeRt5DJ9epDvWtUE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/banner3.svg"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/js/site.js",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "js/site#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bnkqy1y0r8",
+      "Integrity": "BxFAw9RUJ1E4NycpKEjCNDeoSvr4RPHixdBq5wDnkeY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/site.js"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/js/site.min.js",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "js/site.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/site.min.js"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/.bower.json",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/bootstrap/.bower#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gf1l0tubis",
+      "Integrity": "fC4WbqaQ0G9sipv3Ku9/pBjDrwiStLOwqXKDeceP/nE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/.bower.json"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-theme#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o3kse6f0q7",
+      "Integrity": "xOpS+e/dER8z72w+qryCieOGysQI8cELAVt3MHG0phY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-theme.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1gzojq7jip",
+      "Integrity": "cZQbJTuJQjdM1XuKhdRzSJ8hMRQ4up491P76Iq2/D1M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-theme.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ndb825arvd",
+      "Integrity": "ZT4HPpdCOt2lvDkXokHuhJfdOKSPFLzeAJik5U/Q+l4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-theme.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g210lhpolz",
+      "Integrity": "mFHhafBEv8DV5KinYd7VMdQVzrf+vB6lhfqwcLhG1zg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y0id4b3pku",
+      "Integrity": "fmMNkMcjSw3xcp9iuPnku/ryk9kaWgrEbfJfKmdZ45o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o3yzcp43z9",
+      "Integrity": "nNhKKlFiyBaou715z53AYFvA6obkzSurQ67gabuD0mY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fmhzntxchr",
+      "Integrity": "916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wrmkol24q7",
+      "Integrity": "tKNdGXk95EX0Yi9NKNsnnAJCtgIo7zBDQKrYM9ASp30=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/bootstrap/dist/fonts/glyphicons-halflings-regular#[.{fingerprint}]?.eot",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "torz25362b",
+      "Integrity": "E2NNqH2eI/jD7ZEIzhck0YOjmtBy5z4bPYy/ZG0tBAc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/bootstrap/dist/fonts/glyphicons-halflings-regular#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "masyeah4yd",
+      "Integrity": "QvYGWdJlwaPDD5+kKry7Vr1KU69Ng9MW1t16NpA8Q+U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/bootstrap/dist/fonts/glyphicons-halflings-regular#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "li0e4nnnks",
+      "Integrity": "45UEQJN1fYKvyxOJV9BqHqk2G9zwtELQahioBRr1dFY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/bootstrap/dist/fonts/glyphicons-halflings-regular#[.{fingerprint}]?.woff",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qqew9mh6jt",
+      "Integrity": "omOU9+3hAMoRjv8u2ghZYnWpg5uVnCJuFUOVV6WoB0I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/bootstrap/dist/fonts/glyphicons-halflings-regular#[.{fingerprint}]?.woff2",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y3zdydnkm9",
+      "Integrity": "/hhdEaSWdokNR7t4MxKgzaWkTEA5IUCU55V7TAQO8Rw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yenew89u7c",
+      "Integrity": "Cr6N6zNN4bp0OwTQOZ6Z66M2r+2dpy/EwKMCyZ+SOMg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lqjz3ug8zc",
+      "Integrity": "U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/js/npm.js",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/bootstrap/dist/js/npm#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "70c8sktaz9",
+      "Integrity": "x6qCoap9RSJKONkm0q2v9/5K71vNr6Kke9rAV/RCLC0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/npm.js"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/LICENSE",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ejhngcrdoo",
+      "Integrity": "imjCetAiJEt43Fya20zFpMkqmU4+EdNWspHyJ7KwTq8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-ajax-unobtrusive/.npmignore",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/jquery-ajax-unobtrusive/#[.{fingerprint}]?.npmignore",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8a77idjd5m",
+      "Integrity": "YMlulafnWJWPUxp6UVNmME4qJ1im1ZQaCOOl0IfZGxk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery-ajax-unobtrusive/.npmignore"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-ajax-unobtrusive/bower.json",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/jquery-ajax-unobtrusive/bower#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cyrr1tfx81",
+      "Integrity": "RCtGvlPGzgUWfgcCNjAZ0VhYYHLYQ7C7DKBx18MZamM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery-ajax-unobtrusive/bower.json"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-ajax-unobtrusive/CONTRIBUTING.md",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/jquery-ajax-unobtrusive/CONTRIBUTING#[.{fingerprint}]?.md",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a9g0tgvzl6",
+      "Integrity": "soCLcytNpYev8ZP642TV0NHt0dAJX0/LtQLDXIoCEfo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery-ajax-unobtrusive/CONTRIBUTING.md"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-ajax-unobtrusive/gulpfile.js",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/jquery-ajax-unobtrusive/gulpfile#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wqht8x7k7k",
+      "Integrity": "6GSBFz/kkX/+6pq1XqLs7r+pAu0FHQGW1IR3Q4p3ePw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery-ajax-unobtrusive/gulpfile.js"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.js",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mn9mnuxa1c",
+      "Integrity": "YhmN0E1lgEZck8WUpnfo80QbMBkMgEHTKyb8acrQecM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.js"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uqx7pnrhcc",
+      "Integrity": "lgsQ/RtHErwHpN76whQ/ydPo14oTlRZgbXR/v3R9uD4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-ajax-unobtrusive/LICENSE.txt",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/jquery-ajax-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zavr8v9tht",
+      "Integrity": "O4tENwNTUagbO4CBcsXEEz6v2GSA7kGmeggO6XPcOJc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery-ajax-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-ajax-unobtrusive/package.json",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/jquery-ajax-unobtrusive/package#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lnumm38qtg",
+      "Integrity": "sQbsnXO1g5EoQstlYsQAkniildmk51p1Xmx8fXf5NGE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery-ajax-unobtrusive/package.json"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-ajax-unobtrusive/README.md",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/jquery-ajax-unobtrusive/README#[.{fingerprint}]?.md",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nrwojzsrku",
+      "Integrity": "HWUgP1jo9SirjC/9pb6RZag+0iPcQm7Qen3lQdHL8MU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery-ajax-unobtrusive/README.md"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation-unobtrusive/.bower.json",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/jquery-validation-unobtrusive/.bower#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a3v96qloon",
+      "Integrity": "psPLE698hFRAHiZymvy4l87xjcTMwMMAi88LJVU8JXA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/.bower.json"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lzdet8xj2m",
+      "Integrity": "r5Rfev/5K+Lm9sbVBSYmKM8Bkq1ivQNQypa2LZNGuSg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "550vp3ubuf",
+      "Integrity": "eVcx3YfaaEtLd9TsEr+366Qre3mb6SMq71vPpUkqATU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4ez5mqxv2b",
+      "Integrity": "bJBFwc85FxNITit+4+dmzq5fRpbBEauvU+1eI+EpziQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation/.bower.json",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/jquery-validation/.bower#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2hqs2iqual",
+      "Integrity": "+qA3VPTSghqUCFkF2y1KAW8deAr/Dq/tu3c05WUbSx8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/.bower.json"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o2fui7xoca",
+      "Integrity": "0IXY0aA9BMZHp1azQSgmyQTG4+8NwTeDlKmjpQYrcXs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3rqbzy5c3x",
+      "Integrity": "0Yg/eibVdKyxkuVo1Qwh0DspoUCHvSbm/oOoYVz32BQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jdpnbaa6vo",
+      "Integrity": "yazfaIh2SXu8rPenyD2f36pKgrkv5XT+DQCDpZ/eDao=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "59qolqi738",
+      "Integrity": "F6h55Qw6sweK+t7SiOJX+2bpSAa3b/fnlrVCJvmEj1A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation/LICENSE.md",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xzw0cte36n",
+      "Integrity": "85iHjKszi4aWOL2sGurna/OsEbK4nabgtovBpkVzNEA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery/.bower.json",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/jquery/.bower#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kr607nge56",
+      "Integrity": "wDqyFWuWkTD/L7NI9Nb8ovMjgh0Q3wBcucFdEfjgaCY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery/.bower.json"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery/dist/jquery.js",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gux2z0h2ti",
+      "Integrity": "2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery/dist/jquery.min.js",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2ye1g148en",
+      "Integrity": "FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery/dist/jquery.min.map",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b804xvqo1w",
+      "Integrity": "1eiGMA0y1kD5P/bXnTaiTKk8vtvQ8IC2nXAoI1HJXyE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Identity": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery/LICENSE.txt",
+      "SourceId": "NorbitsChallenge",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/",
+      "BasePath": "_content/NorbitsChallenge",
+      "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rkkog0v3vw",
+      "Integrity": "Kz7YukJEI6ULAj5yhTDZS8OFz8fDKK1lo9/unHwFMcU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.css",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "845"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OVN/hmrGan4G7oD2wWQqwcQ3G+nm/YOpnRS7eeAFiLs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OVN/hmrGan4G7oD2wWQqwcQ3G+nm/YOpnRS7eeAFiLs="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.dz0tt7zj3u.css",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "845"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OVN/hmrGan4G7oD2wWQqwcQ3G+nm/YOpnRS7eeAFiLs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dz0tt7zj3u"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OVN/hmrGan4G7oD2wWQqwcQ3G+nm/YOpnRS7eeAFiLs="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.min.8qo50a92ce.css",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/css/site.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "282"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kHvJwvVAK1eJLN4w8xygUR3nbvlLmRwi5yr+OuAO90E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8qo50a92ce"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kHvJwvVAK1eJLN4w8xygUR3nbvlLmRwi5yr+OuAO90E="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.min.css",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/css/site.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "282"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kHvJwvVAK1eJLN4w8xygUR3nbvlLmRwi5yr+OuAO90E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kHvJwvVAK1eJLN4w8xygUR3nbvlLmRwi5yr+OuAO90E="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.90yqlj465b.ico",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qU+KhVPK6oQw3UyjzAHU4xjRmCj3TLZUU/+39dni9E0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "90yqlj465b"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qU+KhVPK6oQw3UyjzAHU4xjRmCj3TLZUU/+39dni9E0="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qU+KhVPK6oQw3UyjzAHU4xjRmCj3TLZUU/+39dni9E0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qU+KhVPK6oQw3UyjzAHU4xjRmCj3TLZUU/+39dni9E0="
+        }
+      ]
+    },
+    {
+      "Route": "images/banner1.svg",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/images/banner1.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9679"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GaE/EmkeBf+yBbrJ26lpkGd4jkOSh1eVKJaNOw9I4uk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GaE/EmkeBf+yBbrJ26lpkGd4jkOSh1eVKJaNOw9I4uk="
+        }
+      ]
+    },
+    {
+      "Route": "images/banner1.v6jnq5ttib.svg",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/images/banner1.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9679"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GaE/EmkeBf+yBbrJ26lpkGd4jkOSh1eVKJaNOw9I4uk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v6jnq5ttib"
+        },
+        {
+          "Name": "label",
+          "Value": "images/banner1.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GaE/EmkeBf+yBbrJ26lpkGd4jkOSh1eVKJaNOw9I4uk="
+        }
+      ]
+    },
+    {
+      "Route": "images/banner2.htbl0vvztd.svg",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/images/banner2.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8394"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"60TgRUjPDlTKrCHTI/KjwzfC3Q1Vn13XT2aAYMbYT2o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "htbl0vvztd"
+        },
+        {
+          "Name": "label",
+          "Value": "images/banner2.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-60TgRUjPDlTKrCHTI/KjwzfC3Q1Vn13XT2aAYMbYT2o="
+        }
+      ]
+    },
+    {
+      "Route": "images/banner2.svg",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/images/banner2.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8394"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"60TgRUjPDlTKrCHTI/KjwzfC3Q1Vn13XT2aAYMbYT2o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-60TgRUjPDlTKrCHTI/KjwzfC3Q1Vn13XT2aAYMbYT2o="
+        }
+      ]
+    },
+    {
+      "Route": "images/banner3.svg",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/images/banner3.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12291"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aJNxc7a4CqF4NF5VHFqWt59nF8aJeRt5DJ9epDvWtUE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aJNxc7a4CqF4NF5VHFqWt59nF8aJeRt5DJ9epDvWtUE="
+        }
+      ]
+    },
+    {
+      "Route": "images/banner3.w24zs667xn.svg",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/images/banner3.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12291"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aJNxc7a4CqF4NF5VHFqWt59nF8aJeRt5DJ9epDvWtUE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w24zs667xn"
+        },
+        {
+          "Name": "label",
+          "Value": "images/banner3.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aJNxc7a4CqF4NF5VHFqWt59nF8aJeRt5DJ9epDvWtUE="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.bnkqy1y0r8.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/js/site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "226"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BxFAw9RUJ1E4NycpKEjCNDeoSvr4RPHixdBq5wDnkeY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bnkqy1y0r8"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BxFAw9RUJ1E4NycpKEjCNDeoSvr4RPHixdBq5wDnkeY="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/js/site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "226"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BxFAw9RUJ1E4NycpKEjCNDeoSvr4RPHixdBq5wDnkeY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BxFAw9RUJ1E4NycpKEjCNDeoSvr4RPHixdBq5wDnkeY="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.min.5ipweew5fc.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/js/site.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.min.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/js/site.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/.bower.gf1l0tubis.json",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/.bower.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "940"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fC4WbqaQ0G9sipv3Ku9/pBjDrwiStLOwqXKDeceP/nE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gf1l0tubis"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/.bower.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fC4WbqaQ0G9sipv3Ku9/pBjDrwiStLOwqXKDeceP/nE="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/.bower.json",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/.bower.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "940"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fC4WbqaQ0G9sipv3Ku9/pBjDrwiStLOwqXKDeceP/nE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fC4WbqaQ0G9sipv3Ku9/pBjDrwiStLOwqXKDeceP/nE="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-theme.css",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xOpS+e/dER8z72w+qryCieOGysQI8cELAVt3MHG0phY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xOpS+e/dER8z72w+qryCieOGysQI8cELAVt3MHG0phY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-theme.css.1gzojq7jip.map",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47706"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cZQbJTuJQjdM1XuKhdRzSJ8hMRQ4up491P76Iq2/D1M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1gzojq7jip"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap-theme.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cZQbJTuJQjdM1XuKhdRzSJ8hMRQ4up491P76Iq2/D1M="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-theme.css.map",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47706"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cZQbJTuJQjdM1XuKhdRzSJ8hMRQ4up491P76Iq2/D1M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cZQbJTuJQjdM1XuKhdRzSJ8hMRQ4up491P76Iq2/D1M="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-theme.min.css",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23409"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZT4HPpdCOt2lvDkXokHuhJfdOKSPFLzeAJik5U/Q+l4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZT4HPpdCOt2lvDkXokHuhJfdOKSPFLzeAJik5U/Q+l4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-theme.min.css.g210lhpolz.map",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25648"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mFHhafBEv8DV5KinYd7VMdQVzrf+vB6lhfqwcLhG1zg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g210lhpolz"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap-theme.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mFHhafBEv8DV5KinYd7VMdQVzrf+vB6lhfqwcLhG1zg="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-theme.min.css.map",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25648"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mFHhafBEv8DV5KinYd7VMdQVzrf+vB6lhfqwcLhG1zg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mFHhafBEv8DV5KinYd7VMdQVzrf+vB6lhfqwcLhG1zg="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-theme.min.ndb825arvd.css",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23409"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZT4HPpdCOt2lvDkXokHuhJfdOKSPFLzeAJik5U/Q+l4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ndb825arvd"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap-theme.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZT4HPpdCOt2lvDkXokHuhJfdOKSPFLzeAJik5U/Q+l4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-theme.o3kse6f0q7.css",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xOpS+e/dER8z72w+qryCieOGysQI8cELAVt3MHG0phY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o3kse6f0q7"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap-theme.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xOpS+e/dER8z72w+qryCieOGysQI8cELAVt3MHG0phY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.css",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "146010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fmMNkMcjSw3xcp9iuPnku/ryk9kaWgrEbfJfKmdZ45o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fmMNkMcjSw3xcp9iuPnku/ryk9kaWgrEbfJfKmdZ45o="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "389287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nNhKKlFiyBaou715z53AYFvA6obkzSurQ67gabuD0mY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nNhKKlFiyBaou715z53AYFvA6obkzSurQ67gabuD0mY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.css.o3yzcp43z9.map",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "389287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nNhKKlFiyBaou715z53AYFvA6obkzSurQ67gabuD0mY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o3yzcp43z9"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nNhKKlFiyBaou715z53AYFvA6obkzSurQ67gabuD0mY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "121200"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "542194"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tKNdGXk95EX0Yi9NKNsnnAJCtgIo7zBDQKrYM9ASp30=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tKNdGXk95EX0Yi9NKNsnnAJCtgIo7zBDQKrYM9ASp30="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.css.wrmkol24q7.map",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "542194"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tKNdGXk95EX0Yi9NKNsnnAJCtgIo7zBDQKrYM9ASp30=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wrmkol24q7"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tKNdGXk95EX0Yi9NKNsnnAJCtgIo7zBDQKrYM9ASp30="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.fmhzntxchr.css",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "121200"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fmhzntxchr"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.y0id4b3pku.css",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "146010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fmMNkMcjSw3xcp9iuPnku/ryk9kaWgrEbfJfKmdZ45o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y0id4b3pku"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fmMNkMcjSw3xcp9iuPnku/ryk9kaWgrEbfJfKmdZ45o="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20127"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.ms-fontobject"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E2NNqH2eI/jD7ZEIzhck0YOjmtBy5z4bPYy/ZG0tBAc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E2NNqH2eI/jD7ZEIzhck0YOjmtBy5z4bPYy/ZG0tBAc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/fonts/glyphicons-halflings-regular.li0e4nnnks.ttf",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45404"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"45UEQJN1fYKvyxOJV9BqHqk2G9zwtELQahioBRr1dFY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "li0e4nnnks"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-45UEQJN1fYKvyxOJV9BqHqk2G9zwtELQahioBRr1dFY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/fonts/glyphicons-halflings-regular.masyeah4yd.svg",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "108738"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QvYGWdJlwaPDD5+kKry7Vr1KU69Ng9MW1t16NpA8Q+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "masyeah4yd"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QvYGWdJlwaPDD5+kKry7Vr1KU69Ng9MW1t16NpA8Q+U="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/fonts/glyphicons-halflings-regular.qqew9mh6jt.woff",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23424"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"omOU9+3hAMoRjv8u2ghZYnWpg5uVnCJuFUOVV6WoB0I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qqew9mh6jt"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-omOU9+3hAMoRjv8u2ghZYnWpg5uVnCJuFUOVV6WoB0I="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "108738"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QvYGWdJlwaPDD5+kKry7Vr1KU69Ng9MW1t16NpA8Q+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QvYGWdJlwaPDD5+kKry7Vr1KU69Ng9MW1t16NpA8Q+U="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/fonts/glyphicons-halflings-regular.torz25362b.eot",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20127"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.ms-fontobject"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E2NNqH2eI/jD7ZEIzhck0YOjmtBy5z4bPYy/ZG0tBAc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "torz25362b"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E2NNqH2eI/jD7ZEIzhck0YOjmtBy5z4bPYy/ZG0tBAc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45404"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"45UEQJN1fYKvyxOJV9BqHqk2G9zwtELQahioBRr1dFY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-45UEQJN1fYKvyxOJV9BqHqk2G9zwtELQahioBRr1dFY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23424"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"omOU9+3hAMoRjv8u2ghZYnWpg5uVnCJuFUOVV6WoB0I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-omOU9+3hAMoRjv8u2ghZYnWpg5uVnCJuFUOVV6WoB0I="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/hhdEaSWdokNR7t4MxKgzaWkTEA5IUCU55V7TAQO8Rw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/hhdEaSWdokNR7t4MxKgzaWkTEA5IUCU55V7TAQO8Rw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/fonts/glyphicons-halflings-regular.y3zdydnkm9.woff2",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/hhdEaSWdokNR7t4MxKgzaWkTEA5IUCU55V7TAQO8Rw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y3zdydnkm9"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/hhdEaSWdokNR7t4MxKgzaWkTEA5IUCU55V7TAQO8Rw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/bootstrap.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "69707"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Cr6N6zNN4bp0OwTQOZ6Z66M2r+2dpy/EwKMCyZ+SOMg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Cr6N6zNN4bp0OwTQOZ6Z66M2r+2dpy/EwKMCyZ+SOMg="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37045"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/bootstrap.min.lqjz3ug8zc.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37045"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lqjz3ug8zc"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/js/bootstrap.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/bootstrap.yenew89u7c.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "69707"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Cr6N6zNN4bp0OwTQOZ6Z66M2r+2dpy/EwKMCyZ+SOMg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yenew89u7c"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/js/bootstrap.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Cr6N6zNN4bp0OwTQOZ6Z66M2r+2dpy/EwKMCyZ+SOMg="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/npm.70c8sktaz9.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/js/npm.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "484"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x6qCoap9RSJKONkm0q2v9/5K71vNr6Kke9rAV/RCLC0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "70c8sktaz9"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/js/npm.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-x6qCoap9RSJKONkm0q2v9/5K71vNr6Kke9rAV/RCLC0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/npm.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/dist/js/npm.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "484"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x6qCoap9RSJKONkm0q2v9/5K71vNr6Kke9rAV/RCLC0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-x6qCoap9RSJKONkm0q2v9/5K71vNr6Kke9rAV/RCLC0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/LICENSE",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1085"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"imjCetAiJEt43Fya20zFpMkqmU4+EdNWspHyJ7KwTq8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-imjCetAiJEt43Fya20zFpMkqmU4+EdNWspHyJ7KwTq8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/LICENSE.ejhngcrdoo",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/bootstrap/LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1085"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"imjCetAiJEt43Fya20zFpMkqmU4+EdNWspHyJ7KwTq8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ejhngcrdoo"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/LICENSE"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-imjCetAiJEt43Fya20zFpMkqmU4+EdNWspHyJ7KwTq8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ajax-unobtrusive/.8a77idjd5m.npmignore",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-ajax-unobtrusive/.npmignore",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YMlulafnWJWPUxp6UVNmME4qJ1im1ZQaCOOl0IfZGxk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8a77idjd5m"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ajax-unobtrusive/.npmignore"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YMlulafnWJWPUxp6UVNmME4qJ1im1ZQaCOOl0IfZGxk="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ajax-unobtrusive/.npmignore",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-ajax-unobtrusive/.npmignore",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YMlulafnWJWPUxp6UVNmME4qJ1im1ZQaCOOl0IfZGxk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YMlulafnWJWPUxp6UVNmME4qJ1im1ZQaCOOl0IfZGxk="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ajax-unobtrusive/bower.cyrr1tfx81.json",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-ajax-unobtrusive/bower.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "819"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RCtGvlPGzgUWfgcCNjAZ0VhYYHLYQ7C7DKBx18MZamM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cyrr1tfx81"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ajax-unobtrusive/bower.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RCtGvlPGzgUWfgcCNjAZ0VhYYHLYQ7C7DKBx18MZamM="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ajax-unobtrusive/bower.json",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-ajax-unobtrusive/bower.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "819"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RCtGvlPGzgUWfgcCNjAZ0VhYYHLYQ7C7DKBx18MZamM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RCtGvlPGzgUWfgcCNjAZ0VhYYHLYQ7C7DKBx18MZamM="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ajax-unobtrusive/CONTRIBUTING.a9g0tgvzl6.md",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-ajax-unobtrusive/CONTRIBUTING.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"soCLcytNpYev8ZP642TV0NHt0dAJX0/LtQLDXIoCEfo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a9g0tgvzl6"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ajax-unobtrusive/CONTRIBUTING.md"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-soCLcytNpYev8ZP642TV0NHt0dAJX0/LtQLDXIoCEfo="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ajax-unobtrusive/CONTRIBUTING.md",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-ajax-unobtrusive/CONTRIBUTING.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"soCLcytNpYev8ZP642TV0NHt0dAJX0/LtQLDXIoCEfo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-soCLcytNpYev8ZP642TV0NHt0dAJX0/LtQLDXIoCEfo="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ajax-unobtrusive/gulpfile.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-ajax-unobtrusive/gulpfile.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "334"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6GSBFz/kkX/+6pq1XqLs7r+pAu0FHQGW1IR3Q4p3ePw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6GSBFz/kkX/+6pq1XqLs7r+pAu0FHQGW1IR3Q4p3ePw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ajax-unobtrusive/gulpfile.wqht8x7k7k.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-ajax-unobtrusive/gulpfile.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "334"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6GSBFz/kkX/+6pq1XqLs7r+pAu0FHQGW1IR3Q4p3ePw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wqht8x7k7k"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ajax-unobtrusive/gulpfile.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6GSBFz/kkX/+6pq1XqLs7r+pAu0FHQGW1IR3Q4p3ePw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6957"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YhmN0E1lgEZck8WUpnfo80QbMBkMgEHTKyb8acrQecM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YhmN0E1lgEZck8WUpnfo80QbMBkMgEHTKyb8acrQecM="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3833"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lgsQ/RtHErwHpN76whQ/ydPo14oTlRZgbXR/v3R9uD4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lgsQ/RtHErwHpN76whQ/ydPo14oTlRZgbXR/v3R9uD4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.uqx7pnrhcc.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3833"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lgsQ/RtHErwHpN76whQ/ydPo14oTlRZgbXR/v3R9uD4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uqx7pnrhcc"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lgsQ/RtHErwHpN76whQ/ydPo14oTlRZgbXR/v3R9uD4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.mn9mnuxa1c.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6957"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YhmN0E1lgEZck8WUpnfo80QbMBkMgEHTKyb8acrQecM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mn9mnuxa1c"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YhmN0E1lgEZck8WUpnfo80QbMBkMgEHTKyb8acrQecM="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ajax-unobtrusive/LICENSE.txt",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-ajax-unobtrusive/LICENSE.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "592"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O4tENwNTUagbO4CBcsXEEz6v2GSA7kGmeggO6XPcOJc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-O4tENwNTUagbO4CBcsXEEz6v2GSA7kGmeggO6XPcOJc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ajax-unobtrusive/LICENSE.zavr8v9tht.txt",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-ajax-unobtrusive/LICENSE.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "592"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O4tENwNTUagbO4CBcsXEEz6v2GSA7kGmeggO6XPcOJc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zavr8v9tht"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ajax-unobtrusive/LICENSE.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-O4tENwNTUagbO4CBcsXEEz6v2GSA7kGmeggO6XPcOJc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ajax-unobtrusive/package.json",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-ajax-unobtrusive/package.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2680"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sQbsnXO1g5EoQstlYsQAkniildmk51p1Xmx8fXf5NGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sQbsnXO1g5EoQstlYsQAkniildmk51p1Xmx8fXf5NGE="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ajax-unobtrusive/package.lnumm38qtg.json",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-ajax-unobtrusive/package.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2680"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sQbsnXO1g5EoQstlYsQAkniildmk51p1Xmx8fXf5NGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lnumm38qtg"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ajax-unobtrusive/package.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sQbsnXO1g5EoQstlYsQAkniildmk51p1Xmx8fXf5NGE="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ajax-unobtrusive/README.md",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-ajax-unobtrusive/README.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "400"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HWUgP1jo9SirjC/9pb6RZag+0iPcQm7Qen3lQdHL8MU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HWUgP1jo9SirjC/9pb6RZag+0iPcQm7Qen3lQdHL8MU="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ajax-unobtrusive/README.nrwojzsrku.md",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-ajax-unobtrusive/README.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "400"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HWUgP1jo9SirjC/9pb6RZag+0iPcQm7Qen3lQdHL8MU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nrwojzsrku"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ajax-unobtrusive/README.md"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HWUgP1jo9SirjC/9pb6RZag+0iPcQm7Qen3lQdHL8MU="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation-unobtrusive/.bower.a3v96qloon.json",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation-unobtrusive/.bower.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "460"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"psPLE698hFRAHiZymvy4l87xjcTMwMMAi88LJVU8JXA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a3v96qloon"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-validation-unobtrusive/.bower.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-psPLE698hFRAHiZymvy4l87xjcTMwMMAi88LJVU8JXA="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation-unobtrusive/.bower.json",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation-unobtrusive/.bower.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "460"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"psPLE698hFRAHiZymvy4l87xjcTMwMMAi88LJVU8JXA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-psPLE698hFRAHiZymvy4l87xjcTMwMMAi88LJVU8JXA="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19318"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r5Rfev/5K+Lm9sbVBSYmKM8Bkq1ivQNQypa2LZNGuSg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-r5Rfev/5K+Lm9sbVBSYmKM8Bkq1ivQNQypa2LZNGuSg="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.lzdet8xj2m.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19318"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r5Rfev/5K+Lm9sbVBSYmKM8Bkq1ivQNQypa2LZNGuSg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lzdet8xj2m"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r5Rfev/5K+Lm9sbVBSYmKM8Bkq1ivQNQypa2LZNGuSg="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.550vp3ubuf.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eVcx3YfaaEtLd9TsEr+366Qre3mb6SMq71vPpUkqATU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "550vp3ubuf"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eVcx3YfaaEtLd9TsEr+366Qre3mb6SMq71vPpUkqATU="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eVcx3YfaaEtLd9TsEr+366Qre3mb6SMq71vPpUkqATU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eVcx3YfaaEtLd9TsEr+366Qre3mb6SMq71vPpUkqATU="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation-unobtrusive/LICENSE.4ez5mqxv2b.txt",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "575"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bJBFwc85FxNITit+4+dmzq5fRpbBEauvU+1eI+EpziQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ez5mqxv2b"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-validation-unobtrusive/LICENSE.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bJBFwc85FxNITit+4+dmzq5fRpbBEauvU+1eI+EpziQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "575"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bJBFwc85FxNITit+4+dmzq5fRpbBEauvU+1eI+EpziQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bJBFwc85FxNITit+4+dmzq5fRpbBEauvU+1eI+EpziQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation/.bower.2hqs2iqual.json",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation/.bower.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "917"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+qA3VPTSghqUCFkF2y1KAW8deAr/Dq/tu3c05WUbSx8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2hqs2iqual"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-validation/.bower.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+qA3VPTSghqUCFkF2y1KAW8deAr/Dq/tu3c05WUbSx8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation/.bower.json",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation/.bower.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "917"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+qA3VPTSghqUCFkF2y1KAW8deAr/Dq/tu3c05WUbSx8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+qA3VPTSghqUCFkF2y1KAW8deAr/Dq/tu3c05WUbSx8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation/dist/additional-methods.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42027"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0IXY0aA9BMZHp1azQSgmyQTG4+8NwTeDlKmjpQYrcXs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0IXY0aA9BMZHp1azQSgmyQTG4+8NwTeDlKmjpQYrcXs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation/dist/additional-methods.min.3rqbzy5c3x.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18464"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0Yg/eibVdKyxkuVo1Qwh0DspoUCHvSbm/oOoYVz32BQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3rqbzy5c3x"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-validation/dist/additional-methods.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0Yg/eibVdKyxkuVo1Qwh0DspoUCHvSbm/oOoYVz32BQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation/dist/additional-methods.min.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18464"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0Yg/eibVdKyxkuVo1Qwh0DspoUCHvSbm/oOoYVz32BQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0Yg/eibVdKyxkuVo1Qwh0DspoUCHvSbm/oOoYVz32BQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation/dist/additional-methods.o2fui7xoca.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42027"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0IXY0aA9BMZHp1azQSgmyQTG4+8NwTeDlKmjpQYrcXs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o2fui7xoca"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-validation/dist/additional-methods.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0IXY0aA9BMZHp1azQSgmyQTG4+8NwTeDlKmjpQYrcXs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation/dist/jquery.validate.jdpnbaa6vo.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48676"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yazfaIh2SXu8rPenyD2f36pKgrkv5XT+DQCDpZ/eDao=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jdpnbaa6vo"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-validation/dist/jquery.validate.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yazfaIh2SXu8rPenyD2f36pKgrkv5XT+DQCDpZ/eDao="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation/dist/jquery.validate.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48676"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yazfaIh2SXu8rPenyD2f36pKgrkv5XT+DQCDpZ/eDao=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yazfaIh2SXu8rPenyD2f36pKgrkv5XT+DQCDpZ/eDao="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation/dist/jquery.validate.min.59qolqi738.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23261"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F6h55Qw6sweK+t7SiOJX+2bpSAa3b/fnlrVCJvmEj1A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "59qolqi738"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-validation/dist/jquery.validate.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F6h55Qw6sweK+t7SiOJX+2bpSAa3b/fnlrVCJvmEj1A="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23261"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F6h55Qw6sweK+t7SiOJX+2bpSAa3b/fnlrVCJvmEj1A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F6h55Qw6sweK+t7SiOJX+2bpSAa3b/fnlrVCJvmEj1A="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation/LICENSE.md",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1095"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"85iHjKszi4aWOL2sGurna/OsEbK4nabgtovBpkVzNEA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-85iHjKszi4aWOL2sGurna/OsEbK4nabgtovBpkVzNEA="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-validation/LICENSE.xzw0cte36n.md",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1095"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"85iHjKszi4aWOL2sGurna/OsEbK4nabgtovBpkVzNEA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:19:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xzw0cte36n"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-validation/LICENSE.md"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-85iHjKszi4aWOL2sGurna/OsEbK4nabgtovBpkVzNEA="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/.bower.json",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery/.bower.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "545"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wDqyFWuWkTD/L7NI9Nb8ovMjgh0Q3wBcucFdEfjgaCY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wDqyFWuWkTD/L7NI9Nb8ovMjgh0Q3wBcucFdEfjgaCY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/.bower.kr607nge56.json",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery/.bower.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "545"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wDqyFWuWkTD/L7NI9Nb8ovMjgh0Q3wBcucFdEfjgaCY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kr607nge56"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery/.bower.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wDqyFWuWkTD/L7NI9Nb8ovMjgh0Q3wBcucFdEfjgaCY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/dist/jquery.gux2z0h2ti.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery/dist/jquery.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "271751"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gux2z0h2ti"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery/dist/jquery.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/dist/jquery.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery/dist/jquery.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "271751"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/dist/jquery.min.2ye1g148en.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2ye1g148en"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery/dist/jquery.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/dist/jquery.min.b804xvqo1w.map",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132370"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1eiGMA0y1kD5P/bXnTaiTKk8vtvQ8IC2nXAoI1HJXyE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b804xvqo1w"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery/dist/jquery.min.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1eiGMA0y1kD5P/bXnTaiTKk8vtvQ8IC2nXAoI1HJXyE="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/dist/jquery.min.js",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/dist/jquery.min.map",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "132370"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1eiGMA0y1kD5P/bXnTaiTKk8vtvQ8IC2nXAoI1HJXyE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1eiGMA0y1kD5P/bXnTaiTKk8vtvQ8IC2nXAoI1HJXyE="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/LICENSE.rkkog0v3vw.txt",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery/LICENSE.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1605"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kz7YukJEI6ULAj5yhTDZS8OFz8fDKK1lo9/unHwFMcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rkkog0v3vw"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery/LICENSE.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kz7YukJEI6ULAj5yhTDZS8OFz8fDKK1lo9/unHwFMcU="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery/LICENSE.txt",
+      "AssetFile": "/Users/kajakiberg/Documents/Jobb/norbits/norbits/NorbitsChallenge/wwwroot/lib/jquery/LICENSE.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1605"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kz7YukJEI6ULAj5yhTDZS8OFz8fDKK1lo9/unHwFMcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 08:18:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kz7YukJEI6ULAj5yhTDZS8OFz8fDKK1lo9/unHwFMcU="
+        }
+      ]
+    }
+  ]
+}

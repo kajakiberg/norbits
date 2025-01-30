@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Data.SqlClient;
+using System.Data.SQLite;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
@@ -11,25 +11,28 @@ namespace NorbitsChallenge.Dal
 {
     public class SettingsDb
     {
-        private readonly IConfiguration _config;
+        private readonly string _connectionString;
 
         public SettingsDb(IConfiguration config)
         {
-            _config = config;
+            _connectionString = config.GetConnectionString("DefaultConnection");
+
+            if (string.IsNullOrEmpty(_connectionString))
+            {
+                throw new InvalidOperationException("ConnectionString for SQLite is missing in appsettings.json");
+            }
         }
 
         public string GetCompanyName(int companyId)
         {
             string companyName = "";
 
-            var connectionString = _config.GetSection("ConnectionString").Value;
-
-            using (var connection = new SqlConnection(connectionString))
+            using (var connection = new SQLiteConnection(_connectionString))
             {
                 connection.Open();
-                using (var command = new SqlCommand {Connection = connection, CommandType = CommandType.Text})
+                using (var command = new SQLiteCommand { Connection = connection, CommandType = CommandType.Text })
                 {
-                    command.CommandText = "select * from settings where setting = 'companyname'";
+                    command.CommandText = "SELECT * FROM settings WHERE setting = 'companyname'";
 
                     using (var reader = command.ExecuteReader())
                     {
@@ -51,24 +54,23 @@ namespace NorbitsChallenge.Dal
         {
             var settings = new List<Setting>();
 
-            var connectionString = _config.GetSection("ConnectionString").Value;
-
-            using (var connection = new SqlConnection(connectionString))
+            using (var connection = new SQLiteConnection(_connectionString))
             {
                 connection.Open();
-                using (var command = new SqlCommand { Connection = connection, CommandType = CommandType.Text })
+                using (var command = new SQLiteCommand { Connection = connection, CommandType = CommandType.Text })
                 {
-                    command.CommandText = $"select * from settings where companyId = {companyId}";
+                    command.CommandText = $"SELECT * FROM settings WHERE companyId = {companyId}";
 
                     using (var reader = command.ExecuteReader())
                     {
                         while (reader.Read())
                         {
-                            var setting = new Setting();
-
-                            setting.Key = reader["setting"].ToString();
-                            setting.Value = reader["settingValue"].ToString();
-                            setting.CompanyId = companyId;
+                            var setting = new Setting
+                            {
+                                Key = reader["setting"].ToString(),
+                                Value = reader["settingValue"].ToString(),
+                                CompanyId = companyId
+                            };
 
                             settings.Add(setting);
                         }
@@ -81,14 +83,14 @@ namespace NorbitsChallenge.Dal
 
         public void UpdateSetting(Setting setting, int companyId)
         {
-            var connectionString = _config.GetSection("ConnectionString").Value;
-
-            using (var connection = new SqlConnection(connectionString))
+            using (var connection = new SQLiteConnection(_connectionString))
             {
                 connection.Open();
-                using (var command = new SqlCommand {Connection = connection, CommandType = CommandType.Text})
+                using (var command = new SQLiteCommand { Connection = connection, CommandType = CommandType.Text })
                 {
-                    command.CommandText = $"update settings set settingValue = '{setting.Value}' where setting = '{setting.Key}'";
+                    command.CommandText = $"UPDATE settings SET settingValue = @SettingValue WHERE setting = @Setting";
+                    command.Parameters.AddWithValue("@SettingValue", setting.Value);
+                    command.Parameters.AddWithValue("@Setting", setting.Key);
 
                     command.ExecuteNonQuery();
                 }

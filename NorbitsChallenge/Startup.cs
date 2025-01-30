@@ -12,6 +12,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
+
+
 namespace NorbitsChallenge
 {
     public class Startup
@@ -35,6 +37,8 @@ namespace NorbitsChallenge
 
             services.AddSingleton<IConfiguration>(Configuration);
 
+            services.AddSingleton<DatabaseService>();
+
             SetupDependencyInjection(services);
             services.AddControllersWithViews();
         }
@@ -42,7 +46,7 @@ namespace NorbitsChallenge
 
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory, DatabaseService dbService)
         {
             if (env.IsDevelopment())
             {
@@ -53,6 +57,8 @@ namespace NorbitsChallenge
                 app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
+
+            dbService.InitializeDatabase();
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
@@ -67,6 +73,8 @@ namespace NorbitsChallenge
             });
         }
 
-        private void SetupDependencyInjection(IServiceCollection services) { }
+        private void SetupDependencyInjection(IServiceCollection services) {
+
+        }
     }
 }
