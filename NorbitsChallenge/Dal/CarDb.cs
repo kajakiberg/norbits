@@ -21,7 +21,7 @@ namespace NorbitsChallenge.Dal
         {
             int result = 0;
 
-            var connectionString = _config.GetSection("ConnectionString").Value;
+            var connectionString = _config.GetConnectionString("DefaultConnection");
 
             using (var connection = new SqliteConnection(connectionString))
             {
