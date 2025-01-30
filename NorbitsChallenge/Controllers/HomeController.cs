@@ -37,6 +37,37 @@ namespace NorbitsChallenge.Controllers
             return Json(model);
         }
 
+        public IActionResult CarsList()
+        {
+            var companyId = UserHelper.GetLoggedOnUserCompanyId();
+            var carDb = new CarDb(_config);
+            
+            var cars = carDb.GetAllCars(companyId) ?? new List<Car>();  
+            
+            return View(cars);  
+        }
+
+        public IActionResult AddCar()
+        {
+            var companyId = UserHelper.GetLoggedOnUserCompanyId();  
+            var car = new Car { CompanyId = companyId };  
+            return View(car); 
+        }
+
+        [HttpPost]
+        public IActionResult AddCar(Car car)
+        {
+            if (ModelState.IsValid)  // Sjekk at modellen er gyldig
+            {
+                var carDb = new CarDb(_config);
+                carDb.AddCar(car);  // Legg til bilen i databasen
+                return RedirectToAction("CarsList");  // Etter innlegging, gå tilbake til bil-listen
+            }
+
+            return View(car);  // Hvis modellen er ugyldig, vis skjemaet igjen
+        }
+
+
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";

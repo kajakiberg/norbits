@@ -1,0 +1,39 @@
+@model List<Car>
+
+<h2>Biler tilknyttet verkstedet</h2>
+
+<!-- Legg til en knapp for å legge til bil -->
+<a href="@Url.Action("AddCar", "Home")">
+    <button>Legg til ny bil</button>
+</a>
+
+@if (Model != null && Model.Any())  // Sjekk at det finnes biler før vi prøver å vise dem
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Bilskilt</th>
+                <th>Beskrivelse</th>
+                <th>Modell</th>
+                <th>Merke</th>
+                <th>Antall Dekk</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var car in Model)
+            {
+                <tr>
+                    <td>@car.LicensePlate</td>
+                    <td>@car.Description</td>
+                    <td>@car.Model</td>
+                    <td>@car.Brand</td>
+                    <td>@car.TireCount</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Ingen biler funnet.</p>
+}
