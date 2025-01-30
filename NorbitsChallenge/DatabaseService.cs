@@ -1,5 +1,4 @@
-using System;
-using System.Data.SQLite;
+using Microsoft.Data.Sqlite;
 
 namespace NorbitsChallenge
 {
@@ -9,7 +8,7 @@ namespace NorbitsChallenge
 
         public void InitializeDatabase()
         {
-            using (var connection = new SQLiteConnection(connectionString))
+            using (var connection = new SqliteConnection(connectionString))
             {
                 connection.Open();
 
@@ -33,12 +32,12 @@ namespace NorbitsChallenge
                         settingValue VARCHAR(50)
                     );";
 
-                using (var command = new SQLiteCommand(createCarTable, connection))
+                using (var command = new SqliteCommand(createCarTable, connection))
                 {
                     command.ExecuteNonQuery();
                 }
 
-                using (var command = new SQLiteCommand(createSettingsTable, connection))
+                using (var command = new SqliteCommand(createSettingsTable, connection))
                 {
                     command.ExecuteNonQuery();
                 }
@@ -50,7 +49,7 @@ namespace NorbitsChallenge
         // Metode for å legge til en bil i databasen
         public void AddCar(string licensePlate, string description, string model, string brand, int tireCount, int companyId)
         {
-            using (var connection = new SQLiteConnection(connectionString))
+            using (var connection = new SqliteConnection(connectionString))
             {
                 connection.Open();
 
@@ -58,7 +57,7 @@ namespace NorbitsChallenge
                     INSERT INTO Car (LicensePlate, Description, Model, Brand, TireCount, CompanyId)
                     VALUES (@LicensePlate, @Description, @Model, @Brand, @TireCount, @CompanyId);";
 
-                using (var command = new SQLiteCommand(insertCar, connection))
+                using (var command = new SqliteCommand(insertCar, connection))
                 {
                     command.Parameters.AddWithValue("@LicensePlate", licensePlate);
                     command.Parameters.AddWithValue("@Description", description);

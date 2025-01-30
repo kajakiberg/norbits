@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Data.SQLite;
+using Microsoft.Data.Sqlite;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
@@ -27,10 +27,10 @@ namespace NorbitsChallenge.Dal
         {
             string companyName = "";
 
-            using (var connection = new SQLiteConnection(_connectionString))
+            using (var connection = new SqliteConnection(_connectionString))
             {
                 connection.Open();
-                using (var command = new SQLiteCommand { Connection = connection, CommandType = CommandType.Text })
+                using (var command = new SqliteCommand { Connection = connection, CommandType = CommandType.Text })
                 {
                     command.CommandText = "SELECT * FROM settings WHERE setting = 'companyname'";
 
@@ -54,10 +54,10 @@ namespace NorbitsChallenge.Dal
         {
             var settings = new List<Setting>();
 
-            using (var connection = new SQLiteConnection(_connectionString))
+            using (var connection = new SqliteConnection(_connectionString))
             {
                 connection.Open();
-                using (var command = new SQLiteCommand { Connection = connection, CommandType = CommandType.Text })
+                using (var command = new SqliteCommand { Connection = connection, CommandType = CommandType.Text })
                 {
                     command.CommandText = $"SELECT * FROM settings WHERE companyId = {companyId}";
 
@@ -83,10 +83,10 @@ namespace NorbitsChallenge.Dal
 
         public void UpdateSetting(Setting setting, int companyId)
         {
-            using (var connection = new SQLiteConnection(_connectionString))
+            using (var connection = new SqliteConnection(_connectionString))
             {
                 connection.Open();
-                using (var command = new SQLiteCommand { Connection = connection, CommandType = CommandType.Text })
+                using (var command = new SqliteCommand { Connection = connection, CommandType = CommandType.Text })
                 {
                     command.CommandText = $"UPDATE settings SET settingValue = @SettingValue WHERE setting = @Setting";
                     command.Parameters.AddWithValue("@SettingValue", setting.Value);
