@@ -2,12 +2,11 @@
 
 <h2>Biler tilknyttet verkstedet</h2>
 
-<!-- Legg til en knapp for å legge til bil -->
 <a href="@Url.Action("AddCar", "Home")">
     <button>Legg til ny bil</button>
 </a>
 
-@if (Model != null && Model.Any())  // Sjekk at det finnes biler før vi prøver å vise dem
+@if (Model != null && Model.Any()) 
 {
     <table>
         <thead>

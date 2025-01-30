@@ -52,7 +52,7 @@ namespace NorbitsChallenge.Dal
             {
                 connection.Open();
 
-                using (var command = new SqliteCommand("INSERT INTO car (LicensePlate, Description, Model, Brand, TireCount, CompanyId) VALUES (@LicensePlate, @Description, @Model, @Brand, @TireCount, @CompanyId)", connection))
+                using (var command = new SqliteCommand("INSERT INTO Car (LicensePlate, Description, Model, Brand, TireCount, CompanyId) VALUES (@LicensePlate, @Description, @Model, @Brand, @TireCount, @CompanyId)", connection))
                 {
                     command.Parameters.AddWithValue("@LicensePlate", car.LicensePlate);
                     command.Parameters.AddWithValue("@Description", car.Description);
