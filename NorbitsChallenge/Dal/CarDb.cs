@@ -26,15 +26,16 @@ namespace NorbitsChallenge.Dal
             using (var connection = new SqliteConnection(connectionString))
             {
                 connection.Open();
-                using (var command = new SqliteCommand {Connection = connection, CommandType = CommandType.Text})
+                using (var command = new SqliteCommand("SELECT tireCount FROM car WHERE companyId = @CompanyId AND licenseplate = @LicensePlate", connection))
                 {
-                    command.CommandText = $"select * from car where companyId = {companyId} and licenseplate = '{licensePlate}'";
+                    command.Parameters.AddWithValue("@CompanyId", companyId);
+                    command.Parameters.AddWithValue("@LicensePlate", licensePlate);
 
                     using (var reader = command.ExecuteReader())
                     {
                         if (reader.Read())
                         {
-                            result = (int) reader["tireCount"];
+                            result = reader.IsDBNull(reader.GetOrdinal("tireCount")) ? 0 : reader.GetInt32(reader.GetOrdinal("tireCount"));
                         }
                     }
                 }
