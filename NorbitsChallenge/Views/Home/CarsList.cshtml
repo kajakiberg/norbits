@@ -2,6 +2,30 @@
 
 <h2>Biler tilknyttet verkstedet</h2>
 
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;  /* Fjerner mellomrom mellom cellene */
+    }
+
+    table, th, td {
+        border: 1px solid #ddd;  /* Grå kantlinje for tabellen og cellene */
+    }
+
+    th, td {
+        padding: 8px;  /* Gir litt plass rundt teksten */
+        text-align: left;  /* Justerer teksten til venstre */
+    }
+
+    th {
+        background-color: #f2f2f2;  /* Lys bakgrunnsfarge på overskriftene */
+    }
+
+    td {
+        word-wrap: break-word;  /* Hindrer tekst fra å gå ut av cellen */
+    }
+</style>
+
 <a href="@Url.Action("AddCar", "Home")">
     <button>Legg til ny bil</button>
 </a>
@@ -32,8 +56,6 @@
                         <a href="@Url.Action("EditCar", "Home", new { licensePlate = car.LicensePlate})">
                             <button>Rediger</button>
                         </a>
-                    </td>
-                    <td>
                         <form asp-action="DeleteCar" method="post" style="display:inline-size: ;">
                             <input type="hidden" name="licensePlate" value="@car.LicensePlate"/>
                             <button type="submit" onclick="return confirm('Er du sikker på at du vil slette denne bilen?')">Slett</button>
