@@ -11,7 +11,7 @@
     <table>
         <thead>
             <tr>
-                <th>Bilskilt</th>
+                <th>Registreringsnummer</th>
                 <th>Beskrivelse</th>
                 <th>Modell</th>
                 <th>Merke</th>
@@ -28,6 +28,11 @@
                     <td>@car.Model</td>
                     <td>@car.Brand</td>
                     <td>@car.TireCount</td>
+                    <td>
+                        <a href="@Url.Action("EditCar", "Home", new { licensePlate = car.LicensePlate})">
+                            <button>Rediger</button>
+                        </a>
+                    </td>
                     <td>
                         <form asp-action="DeleteCar" method="post" style="display:inline-size: ;">
                             <input type="hidden" name="licensePlate" value="@car.LicensePlate"/>
