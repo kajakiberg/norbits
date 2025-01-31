@@ -67,7 +67,7 @@ namespace NorbitsChallenge.Controllers
             return View(car);  // Hvis modellen er ugyldig, vis skjemaet igjen
         }
 
-        public IActionResult EditCar(string licensePlate)
+        public IActionResult EditCar(int companyId, string licensePlate)
         {
             if (string.IsNullOrEmpty(licensePlate))
             {
@@ -75,7 +75,7 @@ namespace NorbitsChallenge.Controllers
             }
 
             var carDb = new CarDb(_config);
-            var car = carDb.GetCarByLicensePlate(licensePlate);
+            var car = carDb.GetCarByLicensePlate(companyId, licensePlate);
 
             if (car == null)
             {

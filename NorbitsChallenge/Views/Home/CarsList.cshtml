@@ -53,7 +53,7 @@
                     <td>@car.Brand</td>
                     <td>@car.TireCount</td>
                     <td>
-                        <a href="@Url.Action("EditCar", "Home", new { licensePlate = car.LicensePlate})">
+                        <a href="@Url.Action("EditCar", "Home", new { companyId = car.CompanyId, licensePlate = car.LicensePlate})">
                             <button>Rediger</button>
                         </a>
                         <form asp-action="DeleteCar" method="post" style="display:inline-size: ;">

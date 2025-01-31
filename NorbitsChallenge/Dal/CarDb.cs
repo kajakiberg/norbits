@@ -66,7 +66,7 @@ namespace NorbitsChallenge.Dal
             }
         }
 
-        public Car GetCarByLicensePlate(string licensePlate)
+        public Car GetCarByLicensePlate(int companyId, string licensePlate)
         {
             Car car = null;
             var connectionString = _config.GetConnectionString("DefaultConnection");
@@ -75,8 +75,9 @@ namespace NorbitsChallenge.Dal
             {
                 connection.Open();
 
-                using (var command = new SqliteCommand("SELECT * FROM Car WHERE LicensePlate = @LicensePlate", connection))
+                using (var command = new SqliteCommand("SELECT * FROM Car WHERE CompanyId = @CompanyId AND LicensePlate = @LicensePlate", connection))
                 {
+                    command.Parameters.AddWithValue("@CompanyId", companyId);
                     command.Parameters.AddWithValue("@LicensePlate", licensePlate);
 
                     using (var reader = command.ExecuteReader())
@@ -145,13 +146,14 @@ namespace NorbitsChallenge.Dal
             {
                 connection.Open();
 
-                using (var command = new SqliteCommand("UPDATE Car SET Description = @Description, Model = @Model, Brand = @Brand, TireCount = @TireCount WHERE LicensePlate = @LicensePlate", connection))
+                using (var command = new SqliteCommand("UPDATE Car SET Description = @Description, Model = @Model, Brand = @Brand, TireCount = @TireCount WHERE LicensePlate = @LicensePlate AND CompanyId = @CompanyId", connection))
                 {
                     command.Parameters.AddWithValue("@Description", car.Description);
                     command.Parameters.AddWithValue("@Model", car.Model);
                     command.Parameters.AddWithValue("@Brand", car.Brand);
                     command.Parameters.AddWithValue("@TireCount", car.TireCount);
                     command.Parameters.AddWithValue("@LicensePlate", car.LicensePlate);
+                    command.Parameters.AddWithValue("@CompanyId", car.CompanyId);
 
                     command.ExecuteNonQuery();
                 }
