@@ -5,20 +5,33 @@
     ViewData["Title"] = "Home Page";
 }
 
-
-
 <h2>
     Vis biler for @Model.CompanyName
 </h2>
+
 <form asp-action="Index" data-ajax="true" data-ajax-method="POST" data-ajax-success="onSuccess">
     <input type="hidden" name="companyId" value="@Model.CompanyId" />
     <input type="text" name="licensePlate" />
     <input type="submit" value="Søk" />
 </form>
 
+<div class="hidden" id="carDetails">
+    <h3>Bilens detaljer:</h3>
+    <div><strong>Registreringsnummer:</strong> <div id="licensePlate" style="display: inline;"></div></div>
+    <div><strong>Beskrivelse:</strong> <div id="description" style="display: inline;"></div></div>
+    <div><strong>Modell:</strong> <div id="model" style="display: inline;"></div></div>
+    <div><strong>Merke:</strong> <div id="brand" style="display: inline;"></div></div>
+    <div><strong>Dekk på hotell:</strong> <div id="tireCount" style="display: inline;"></div></div>
+</div>
 
-<div class="hidden" id="tireInfo">
-    <div>Denne bilen har <div id="tireCount" style="display: inline;"></div> dekk på dekkhotell</div>
+<div class="hidden" id="carNotFound">
+    <p>Denne bilen eksisterer ikke hos ditt selskap.</p>
+</div>
+
+<div style="margin-top: 20px;">
+    <a href="@Url.Action("CarsList", "Home", new {companyId = Model.CompanyId})">
+        <button>Alle biler</button>
+    </a>
 </div>
     
 <hr/>
@@ -28,9 +41,19 @@
 {
     <script type="text/javascript">
         function onSuccess(data) {
-            var tireCount = data.tireCount;
-            $('#tireCount').text(tireCount);
-            $('#tireInfo').removeClass('hidden');
+            if (data.car) {
+                $('#licensePlate').text(data.car.licensePlate);
+                $('#description').text(data.car.description);
+                $('#model').text(data.car.model);
+                $('#brand').text(data.car.brand);
+                $('#tireCount').text(data.car.tireCount);
+
+                $('#carNotFound').addClass('hidden');
+                $('#carDetails').removeClass('hidden'); 
+            } else {
+                $('#carDetails').addClass('hidden');
+                $('#carNotFound').removeClass('hidden'); 
+            }
         }
     </script>
 }

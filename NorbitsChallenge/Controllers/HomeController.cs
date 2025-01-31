@@ -29,10 +29,17 @@ namespace NorbitsChallenge.Controllers
         [HttpPost]
         public JsonResult Index(int companyId, string licensePlate)
         {
-            var tireCount = new CarDb(_config).GetTireCount(companyId, licensePlate);
-
+            var car = new CarDb(_config).GetCarByLicensePlate(companyId, licensePlate);
             var model = GetCompanyModel();
-            model.TireCount = tireCount;
+
+            if (car != null)
+            {
+                model.Car = car;
+            }
+            else
+            {
+                model.Car = null;
+            }
 
             return Json(model);
         }
@@ -69,11 +76,6 @@ namespace NorbitsChallenge.Controllers
 
         public IActionResult EditCar(int companyId, string licensePlate)
         {
-            if (string.IsNullOrEmpty(licensePlate))
-            {
-                return RedirectToAction("CarsList");
-            }
-
             var carDb = new CarDb(_config);
             var car = carDb.GetCarByLicensePlate(companyId, licensePlate);
 
