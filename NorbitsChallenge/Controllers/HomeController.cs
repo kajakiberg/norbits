@@ -67,6 +67,17 @@ namespace NorbitsChallenge.Controllers
             return View(car);  // Hvis modellen er ugyldig, vis skjemaet igjen
         }
 
+        [HttpPost]
+        public IActionResult DeleteCar(string licensePlate)
+        {
+            if (!string.IsNullOrEmpty(licensePlate))
+            {
+                var carDb = new CarDb(_config);
+                carDb.DeleteCar(licensePlate);
+            }
+            return RedirectToAction("CarsList");
+        }
+
 
         public IActionResult About()
         {

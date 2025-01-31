@@ -103,5 +103,20 @@ namespace NorbitsChallenge.Dal
             return cars;
         }
 
+        public void DeleteCar(string licensePlate)
+        {
+            var connectionString = _config.GetConnectionString("DefaultConnection");
+            using (var connection = new SqliteConnection(connectionString))
+            {
+                connection.Open();
+                
+                using (var command = new SqliteCommand("DELETE FROM Car WHERE LicensePlate = @LicensePlate", connection))
+                {
+                    command.Parameters.AddWithValue("@LicensePlate", licensePlate);
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
+
     }
 }

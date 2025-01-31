@@ -16,6 +16,7 @@
                 <th>Modell</th>
                 <th>Merke</th>
                 <th>Antall Dekk</th>
+                <th>Handlinger</th>
             </tr>
         </thead>
         <tbody>
@@ -27,6 +28,12 @@
                     <td>@car.Model</td>
                     <td>@car.Brand</td>
                     <td>@car.TireCount</td>
+                    <td>
+                        <form asp-action="DeleteCar" method="post" style="display:inline-size: ;">
+                            <input type="hidden" name="licensePlate" value="@car.LicensePlate"/>
+                            <button type="submit" onclick="return confirm('Er du sikker på at du vil slette denne bilen?')">Slett</button>
+                        </form>
+                    </td>
                 </tr>
             }
         </tbody>
