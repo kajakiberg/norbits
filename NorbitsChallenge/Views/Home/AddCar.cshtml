@@ -8,24 +8,34 @@
 
 <form asp-action="AddCar" method="post">
     <div>
-        <label for="LicensePlate">Bilskilt</label>
-        <input type="text" id="LicensePlate" name="LicensePlate" />
+        <label for="LicensePlate">Registreringsnummer</label>
+        <input type="text" id="LicensePlate" name="LicensePlate" value=" @Model.LicensePlate" />
+        @if (ViewData.ModelState["LicensePlate"]?.Errors.Count > 0)
+        {
+            <div style="color:red;">
+                @foreach (var error in ViewData.ModelState["LicensePlate"].Errors)
+                {
+                    <p>@error.ErrorMessage</p>
+                }
+            </div>
+        }
     </div>
     <div>
         <label for="Description">Beskrivelse</label>
-        <input type="text" id="Description" name="Description" />
+        <input type="text" id="Description" name="Description"  />
     </div>
     <div>
         <label for="Model">Modell</label>
-        <input type="text" id="Model" name="Model" />
+        <input type="text" id="Model" name="Model"  />
+
     </div>
     <div>
         <label for="Brand">Merke</label>
-        <input type="text" id="Brand" name="Brand" />
+        <input type="text" id="Brand" name="Brand"  />
     </div>
     <div>
         <label for="TireCount">Antall Dekk</label>
-        <input type="number" id="TireCount" name="TireCount" />
+        <input type="number" id="TireCount" name="TireCount" value="@Model.TireCount"/>
     </div>
     <div>
         <label for="CompanyId">CompanyId</label>

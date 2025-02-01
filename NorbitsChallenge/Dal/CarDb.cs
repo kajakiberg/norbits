@@ -75,10 +75,10 @@ namespace NorbitsChallenge.Dal
             {
                 connection.Open();
 
-                using (var command = new SqliteCommand("SELECT * FROM Car WHERE CompanyId = @CompanyId AND LicensePlate = @LicensePlate", connection))
+                using (var command = new SqliteCommand("SELECT * FROM Car WHERE CompanyId = @CompanyId AND UPPER(LicensePlate) = @LicensePlate", connection))
                 {
                     command.Parameters.AddWithValue("@CompanyId", companyId);
-                    command.Parameters.AddWithValue("@LicensePlate", licensePlate);
+                    command.Parameters.AddWithValue("@LicensePlate", licensePlate.ToUpper());
 
                     using (var reader = command.ExecuteReader())
                     {
@@ -100,6 +100,41 @@ namespace NorbitsChallenge.Dal
 
             return car;
         }
+
+        public Car GetCarByLicensePlateAcrossCompanies(string licensePlate)
+        {
+            Car car = null;
+            var connectionString = _config.GetConnectionString("DefaultConnection");
+
+            using (var connection = new SqliteConnection(connectionString))
+            {
+                connection.Open();
+
+                using (var command = new SqliteCommand("SELECT * FROM Car WHERE UPPER(LicensePlate) = @LicensePlate", connection))
+                {
+                    command.Parameters.AddWithValue("@LicensePlate", licensePlate.ToUpper());
+
+                    using (var reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            car = new Car
+                            {
+                                LicensePlate = reader["LicensePlate"].ToString(),
+                                Description = reader["Description"].ToString(),
+                                Model = reader["Model"].ToString(),
+                                Brand = reader["Brand"].ToString(),
+                                TireCount = Convert.ToInt32(reader["TireCount"]),
+                                CompanyId = Convert.ToInt32(reader["CompanyId"])
+                            };
+                        }
+                    }
+                }
+            }
+
+            return car;
+        }
+
 
 
         public List<Car> GetAllCars(int companyId)

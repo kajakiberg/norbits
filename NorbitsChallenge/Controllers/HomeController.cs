@@ -29,7 +29,7 @@ namespace NorbitsChallenge.Controllers
         [HttpPost]
         public JsonResult Index(int companyId, string licensePlate)
         {
-            var car = new CarDb(_config).GetCarByLicensePlate(companyId, licensePlate);
+            var car = new CarDb(_config).GetCarByLicensePlate(companyId, licensePlate.ToUpper());
             var model = GetCompanyModel();
 
             if (car != null)
@@ -64,14 +64,20 @@ namespace NorbitsChallenge.Controllers
         [HttpPost]
         public IActionResult AddCar(Car car)
         {
-            if (ModelState.IsValid)  // Sjekk at modellen er gyldig
+            if (ModelState.IsValid)  
             {
                 var carDb = new CarDb(_config);
-                carDb.AddCar(car);  // Legg til bilen i databasen
-                return RedirectToAction("CarsList");  // Etter innlegging, gå tilbake til bil-listen
+
+                if (carDb.GetCarByLicensePlateAcrossCompanies(car.LicensePlate.ToUpper()) != null)
+                {
+                    ModelState.AddModelError("LicensePlate", "Bilen med dette bilskiltet er allerede registrert.");
+                    return View(car);
+                }
+                carDb.AddCar(car); 
+                return RedirectToAction("CarsList");  
             }
 
-            return View(car);  // Hvis modellen er ugyldig, vis skjemaet igjen
+            return View(car);  
         }
 
         public IActionResult EditCar(int companyId, string licensePlate)

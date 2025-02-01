@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NorbitsChallenge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77f3016bffeb234212da1be5d7edc2e41f03e70a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6e1255f71dccab0ecbcab7e24b74edd04b30f4b")]
 [assembly: System.Reflection.AssemblyProductAttribute("NorbitsChallenge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NorbitsChallenge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
