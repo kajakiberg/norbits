@@ -31,4 +31,14 @@
         @if (ViewData.ModelState["TireCount"]?.Errors.Count > 0)
         {
             <div style="color:red;">
-                @foreach (
+                @foreach (var error in ViewData.ModelState["TireCount"].Errors)
+                {
+                    <p>@error.ErrorMessage</p>
+                }
+            </div>
+        }
+    </div>
+    
+    <input type="hidden" name="CompanyId" value="@Model.CompanyId" />
+    <button type="submit">Lagre endringer</button>
+</form>

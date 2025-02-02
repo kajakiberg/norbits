@@ -41,4 +41,14 @@
             <div style="color:red;">
                 @foreach (var error in ViewData.ModelState["TireCount"].Errors)
                 {
-        
+                    <p>@error.ErrorMessage</p>
+                }
+            </div>
+        }
+    </div>
+    <div>
+        <label for="CompanyId">CompanyId</label>
+        <input type="hidden" id="CompanyId" name="CompanyId" value="@Model.CompanyId" />
+    </div>
+    <button type="submit">Legg til bil</button>
+</form>
