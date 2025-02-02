@@ -5,7 +5,7 @@ namespace NorbitsChallenge.Models
     public class Car
     {
         [Required(ErrorMessage = "Registreringsnummer er påkrevd.")]
-        [StringLength(7, MinimumLength = 2, ErrorMessage = "Registreringsnummeret må være mellom 2 og 7 tegn.")]
+        [StringLength(10, MinimumLength = 2, ErrorMessage = "Registreringsnummeret må være mellom 2 og 10 tegn.")]
         [RegularExpression(@"^[A-Za-z0-9]+$", ErrorMessage = "Registreringsnummeret kan bare inneholde bokstaver og tall.")]
         public string LicensePlate { get; set; } 
         public string Description { get; set; }  = string.Empty;

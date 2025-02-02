@@ -35,11 +35,10 @@
     </div>
     <div>
         <label for="TireCount">Antall Dekk</label>
-        <input type="number" id="TireCount" name="TireCount" value="@Model.TireCount"/>
-    </div>
-    <div>
-        <label for="CompanyId">CompanyId</label>
-        <input type="hidden" id="CompanyId" name="CompanyId" value="@Model.CompanyId" />
-    </div>
-    <button type="submit">Legg til bil</button>
-</form>
+        <input type="number" id="TireCount" name="TireCount" value="@Model.TireCount" min="0"/>
+        @if (ViewData.ModelState["TireCount"]?.Errors.Count > 0)
+        {
+            <div style="color:red;">
+                @foreach (var error in ViewData.ModelState["TireCount"].Errors)
+                {
+        

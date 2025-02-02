@@ -46,52 +46,40 @@ GO;
 ```
 Du kan då nytte eigen databasemotor i botnen, til dømes SQLite.
 
-## English
+## Besvarelse
 
-NorbitsChallenge is a .NET 6 web application for Visual Studio.
-NorbitsChallenge allows employees at car workshops look up information on cars attached to their workshop.
-Authentication is omitted in this version for simplification purposes.
+I denne besvarelsen benyttes SQLite som databasemotor. Applikasjonen er utvidet med følgende: 
 
-We are looking for the following additions to the application:
-* Show all cars connected to the workshop presented in a list
-* Show all information from the Car table when a car is looked up
-* Add new cars and delete existing cars
-* Edit data on an existing car
+* Vise alle bilar tilknyttet verkstedet
+* Vise alle data fra biltabellen på oppsøkt bil
+* Legge til ny bil og slette bil
+* Redigere data på en bil
 
-We also want you to point out any obvious problems in the application and solve these. There's no need to put too much effort in design besides reasonable use of html/javascript/css.
+Søkefeltet på index-siden lar brukeren søke opp en bil basert på bilskilt, og viser bilens detaljer. Søket viser bare biler som tilhører verkstedet man er logget inn hos. På CarsList-siden (‘Cars’ i navigasjonsmenyen) finner man en oversikt over alle bilene til det gjeldende verkstedet. Her ser man bilens detaljer, og kan redigere eller slette bilen. I tillegg kan du legge til nye biler på denne siden. Ved opprettelse av ny bil valideres registreringsnummeret for å sikre at bilen ikke eksiterer i databasen fra før, uavhengig av selskap. I tillegg må registreringsnummeret oppfylle kravene til format. 
 
-Visual Studio Community can be downloaded for free from Microsoft: https://visualstudio.microsoft.com/vs/community/
-The database for this solution is localdb. You need to point to the right file location in appsettings.json
+# Videre forbedringer
 
-Download the code to you computer and upload to your personal github profile or send us a link when you are done. Do not submit a pull request to this repository, as this will make your code available to any other applicants.
+Ved opprettelse av ny bil, vises en feilmelding hvis registreringsnummeret er opptatt eller ugyldig. For øvrige felt kan det være nyttig å legge til en validering som tillater tomme felt for noen av attributtene, som beskrivelse, modell og merke, så lenge de ikke er obligatoriske for registreringen. 
 
-Good luck!
+Søk og validering under opprettelse av bil er case-insensitivt. Alle reg.nr. burde nok uansett lagres med store bokstaver, da dette gir et mer ryddig visuelt inntrykk. 
 
-Edit:
+For å forbedre brukeropplevelsen og effektiviteten, bør bilmerker og eventuelt modeller legges inn som forhåndsdefinerte lister. Det vil gjøre det mulig å bruke en nedtrekksliste e.l. ved opprettelse av nye biler. Det vil også være mulig å implementere merkesøk, og å filtrere søk og billister etter merke. 
 
-If you have problems using the localdb-files you can use the following scripts to create the tables needed:
+Før applikasjonen kan anvendes må det implementeres en innloggingsmekanisme med brukerautentisering. Passord og eventuelle følsomme data må beskyttet med hashing og salt.
 
-```
-CREATE TABLE [dbo].[Car] (
-    [LicensePlate] VARCHAR (10) NOT NULL,
-    [Description]  VARCHAR (50) NULL,
-    [Model]        VARCHAR (50) NULL,
-    [Brand]        VARCHAR (50) NULL,
-    [TireCount]    INT          NULL,
-    [CompanyId]    INT          NULL
-);
+Det kan være fornuftig å introdusere rollebasert tilgangskontroll, som styrer hvilke handlinger brukerne kan utføre (f.eks. legge til, redigere eller slette biler, eller endre verkstedets innstillinger). Her må databasen modifiseres for å støtte lagring av brukerroller og tilhørende tilganger.
 
-GO;
+Dersom applikasjonen vokser i antall brukere og biler, så burde SQLite erstattes med en mer skalerbar databaseløsning. I tillegg burde det implementeres funksjoner som paginasjon for å håndtere store mengder bildata og gjøre det lettere for brukeren å navigere i listen med biler. 
 
-CREATE TABLE [dbo].[Settings] (
-    [id]           INT          NOT NULL,
-    [companyId]    INT          NULL,
-    [setting]      VARCHAR (50) NULL,
-    [settingValue] VARCHAR (50) NULL
-);
+Ytterligere funksjonalitet som vedlikeholdshistorikk, avtalebok og kundedashbord er eksempler på aktuelle utvidelser av applikasjonen. 
 
-GO;
+# Sikkerhet
+Noe beskyttelse er implementert mot sikkerhetstrusler som SQL-injeksjon, XXS og CSRF.
 
-```
-You can then use your preferred database engine, e.g. SQLite.
+I søkefunksjonen brukes registreringsnummeret til å søke etter biler i databasen. Et ubeskyttet inndatafelt kan føre til at en angriper kan manipulere SQL-spørringen for å få tilgang til, endre eller slette data som de ikke har tillatelse til å gjøre. Et innloggingsskjema vil også være en typisk angrepsoverflate for SQL-injeksjon. For å beskytte mot dette brukes parameteriserte spørringer, som gjør at brukerinput behandles som data og ikke som en del av SQL-kommandoen. I tillegg vil ytterligere validering og sanitisering bidra til å beskytte mot SQL-injeksjon ved å fjerne uønskede tegn eller koder. 
 
+XSS er også en potensiell trussel i denne applikasjonen, og kan oppstå hvis brukerens input (som reg.nr. eller bilbeskrivelser) blir direkte vist uten riktig sanitisering. Hvis en angriper skriver input til bilens beskrivelse som inneholder JavaScript-kode, kan det kjøres i nettleseren til den som ser på bilens detaljer, og angriperen kan utføre handlinger på vegne av brukeren eller skade applikasjonen. Derfor må all brukerinput renses, for eksempel ved å bruke HTML-escaping og biblioteker som AntiXSS.
+
+Anti-forgery tokens er brukt i alle sensitive POST-forespørsler for å beskytte applikasjonen mot CSRF-angrep, ved å sørge for at forespørsler kommer fra den autentiserte brukeren.
+
+Logging og overvåking mangler fortsatt. Dette burde implementeres for å fange opp feil, hendelser og mistenkelig aktivitet.  

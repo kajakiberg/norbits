@@ -62,6 +62,7 @@ namespace NorbitsChallenge.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult AddCar(Car car)
         {
             if (ModelState.IsValid)  
@@ -107,6 +108,7 @@ namespace NorbitsChallenge.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult DeleteCar(string licensePlate)
         {
             if (!string.IsNullOrEmpty(licensePlate))
